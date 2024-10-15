@@ -1,3 +1,11 @@
-let message: string = "Hello Typescript World";
+function double(x: number): number {
+    return x * 2;
+}
 
-console.log(message);
+// console.log(double(5));
+
+function sayHello(): void {
+    console.log("Hello!");
+}
+
+console.log(sayHello());
