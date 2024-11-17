@@ -1,8 +1,7 @@
-function double(x) {
-    return x * 2;
+function add(n1, n2) {
+    return n1 + n2;
 }
-// console.log(double(5));
-function sayHello() {
-    console.log("Hello!");
-}
-console.log(sayHello());
+var number1 = 5;
+var number2 = 2.8;
+var result = add(number1, number2);
+console.log(result);

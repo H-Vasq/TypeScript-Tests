@@ -1,11 +1,9 @@
-function double(x: number): number {
-    return x * 2;
+function add(n1: number, n2: number) {
+    return n1 + n2;
 }
 
-// console.log(double(5));
+const number1 = 5;
+const number2 = 2.8;
 
-function sayHello(): void {
-    console.log("Hello!");
-}
-
-console.log(sayHello());
+const result = add(number1, number2);
+console.log(result);
